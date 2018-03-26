@@ -1,0 +1,24 @@
+.button-1{-fx-font-family: 20px;}
+
+.button-2{}
+
+.button{
+    -fx-font-size:20px;
+    -fx-text-fill: black;
+    -fx-background-color: gray;
+    -fx-border-color: black
+}
+
+.button-left{
+    -fx-font-size:20px;
+    -fx-text-fill: black;
+    -fx-background-color: orange;
+    -fx-border-color: black
+}
+.label-result{
+    -fx-text-fill:white;
+    -fx-background-color: black;
+    -fx-font-size:30px;
+    
+}
+

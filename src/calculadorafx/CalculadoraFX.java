@@ -10,6 +10,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
 /**
  *
@@ -23,6 +24,7 @@ public class CalculadoraFX extends Application {
         
         Scene scene = new Scene(root);
         
+        //stage.initStyle(StageStyle.UNDECORATED); Para que no aparezca los botones de maximizar minimizar, y decorar la ventana
         stage.setScene(scene);
         stage.setTitle("Calculadora P1");
         stage.setResizable(false);
